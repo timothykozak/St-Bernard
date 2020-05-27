@@ -1,0 +1,28 @@
+/*!
+ * mission.css
+ * 
+ * This style sheet is used for the table of days in Mission/index.html
+ */
+
+#mission-topics {
+/*    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#mission-topics td, #mission-topics th {
+    border: 2px solid #ddd;
+    padding: 8px;
+}
+
+#mission-topics tr:nth-child(even){background-color: #d2d2d2;}
+
+#mission-topics tr:hover {background-color: #ccffcc;}
+
+#mission-topics th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
